@@ -26,6 +26,7 @@
 
 ## When will I receive an email notification?
 * In order to receive an email notification, you have to choose the corresponding options on your profile page
+* You might want to add `owl.casing.2017@gmail.com` to your contact list.
 * You will receive a notification in the following scenarios:
   * You get added to a session
   * You get removed from a session
@@ -57,7 +58,8 @@ A wise T-shirt once said
 * I don't know whether there's going to be a v2.0 or who's going to build it.
 
 ## What's the technology stack?
-* MySQL database on GearHost
-* Flask web app on Heroku
-* UI scaffolding with Bootstrap
-* The usual stuff: HTML, JS, jQuery, CSS
+The portal is hosted on free infra, and hence isn't built for high performance. The notifications are sent through a new Gmail account. If for whatever reason, Gmail blocks the account, this feature will require a more standardized service email account.
+* MySQL database on `GearHost`
+* Flask web app on `Heroku`
+* UI scaffolding with `Bootstrap`
+* The usual stuff: `HTML`, `JS`, `jQuery`, `CSS`
