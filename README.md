@@ -63,7 +63,7 @@ As [Melisandre](http://gameofthrones.wikia.com/wiki/Melisandre) so eloquently pu
 * Form inputs aren't completely validated.
 
 #### New features
-A wise old T-shirt once said
+A wise old T-shirt once said:
 > If at first you don't succeed, call it version 1.0
 
 * If there are simple changes which have consensus, I'll be happy to make them.
