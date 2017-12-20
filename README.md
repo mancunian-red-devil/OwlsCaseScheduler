@@ -48,8 +48,17 @@
 #### Are my Rice Net ID credentials safe?
 * Yes, the portal doesn't have access to your password. The page on which you enter your credentials are in the Rice domain. The (external) Casing Scheduler portal just receives a token from the Rice infra confirming your identity.
 
+#### Which browsers does this support?
+* I know this'll work in `Chrome`.
+* Haven't tested in other browsers...so may or may not work.
+
+#### Which devices will this work on?
+* I am pretty sure the portal will work only on desktops and laptops! It was not built for small form-factor devices.
+
 #### Bugs? :bug:
-A wise T-shirt once said
+As Melisandre so eloquently put it:
+> The code is bugged and full or errors
+But then a wise T-shirt once said
 > If at first you don't succeed, call it version 1.0
 
 * The portal hasn't gone through rigorous testing, so there still are a few bugs in there.
