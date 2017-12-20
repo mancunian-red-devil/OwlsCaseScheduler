@@ -1,4 +1,4 @@
-# Owls Case Scheduler
+# Owls Casing Scheduler
 
 ## What are the main features of the portal?
 * Profile Management (Privilege: Anyone)
