@@ -59,7 +59,7 @@ A wise T-shirt once said
 
 ## What's the technology stack?
 The portal is hosted on free infra, and hence isn't built for high performance. The notifications are sent through a new Gmail account. If for whatever reason, Gmail blocks the account, this feature will require a more standardized service email account.
-* MySQL database on `GearHost`
-* Flask web app on `Heroku`
+* `MySQL` database on `GearHost`
+* `Flask` web app on `Heroku`
 * UI scaffolding with `Bootstrap`
 * The usual stuff: `HTML`, `JS`, `jQuery`, `CSS`
