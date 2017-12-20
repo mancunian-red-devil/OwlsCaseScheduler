@@ -1,6 +1,6 @@
 # Owls Casing Scheduler
 
-## What are the main features of the portal?
+#### What are the main features of the portal?
 * Profile Management (Privilege: Anyone)
   * Enter your Name, Email, Mobile Number
   * Enter your preferences for receiving email notifications. **You have to opt in!**    
@@ -24,7 +24,7 @@
 * View a list of cases available
 * View a list of users (and their contact details)
 
-## When will I receive an email notification?
+#### When will I receive an email notification?
 * In order to receive an email notification, you have to choose the corresponding options on your profile page
 * You might want to add `owl.casing.2017@gmail.com` to your contact list.
 * You will receive a notification in the following scenarios:
@@ -35,7 +35,7 @@
   * A new participant signs up for a session that you are part of
   * An existing participant opts out of a session that you are part of
 
-## When will I not receive an email notification?
+#### When will I not receive an email notification?
 * If you have unchecked all the notification preference checkboxes on your profile page
 * If you have selected *Yes* for the *Block notifications* field
 * Even with notifications on, you won't receive notifications for your own actions, such as:
@@ -45,19 +45,23 @@
   * You sign up for a session
   * You opt out of a session
 
-## Bugs? :bug:
+#### Are my Rice Net ID credentials safe?
+* Yes, the portal doesn't have access to your password. The page on which you enter your credentials are in the Rice domain. The (external) Casing Scheduler portal just receives a token from the Rice infra confirming your identity.
+
+#### Bugs? :bug:
 A wise T-shirt once said
 > If at first you don't succeed, call it version 1.0
 
 * The portal hasn't gone through rigorous testing, so there still are a few bugs in there.
 * Form inputs aren't completely validated.
 
-## New features
+#### New features
 * If there are simple changes which have consensus, I'll be happy to make them.
 * It's very unlikely that I will add new features. The portal was meant to serve as a `stop-gap solution`.
 * I don't know whether there's going to be a v2.0 or who's going to build it.
 
-## What's the technology stack?
+## Nerdy stuff follows...
+#### What's the technology stack?
 The portal is hosted on free infra, and hence isn't built for high performance. The notifications are sent through a new Gmail account. If for whatever reason, Gmail blocks the account, this feature will require a more standardized service email account.
 * `MySQL` database on `GearHost`
 * `Flask` web app on `Heroku`
