@@ -56,15 +56,16 @@
 * I am pretty sure the portal will work only on desktops and laptops! It was not built for small form-factor devices.
 
 #### Bugs? :bug:
-As Melisandre so eloquently put it:
+As [Melisandre](http://gameofthrones.wikia.com/wiki/Melisandre) so eloquently put it:
 > The code is bugged and full or errors
-But then a wise T-shirt once said
-> If at first you don't succeed, call it version 1.0
 
 * The portal hasn't gone through rigorous testing, so there still are a few bugs in there.
 * Form inputs aren't completely validated.
 
 #### New features
+A wise old T-shirt once said
+> If at first you don't succeed, call it version 1.0
+
 * If there are simple changes which have consensus, I'll be happy to make them.
 * It's very unlikely that I will add new features. The portal was meant to serve as a `stop-gap solution`.
 * I don't know whether there's going to be a v2.0 or who's going to build it.
