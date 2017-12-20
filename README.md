@@ -57,7 +57,7 @@
 
 #### Bugs? :bug:
 As [Melisandre](http://gameofthrones.wikia.com/wiki/Melisandre) so eloquently put it:
-> The code is bugged and full or errors
+> The code is bugged and full of errors
 
 * The portal hasn't gone through rigorous testing, so there still are a few bugs in there.
 * Form inputs aren't completely validated.
